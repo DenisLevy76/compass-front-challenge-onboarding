@@ -1,0 +1,64 @@
+section {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.5rem;
+
+  height: 100vh;
+
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+}
+
+.tab {
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+
+.active {
+  border: 1px solid #92e3a9;
+  background-color: #92e3a9;
+}
+
+.button {
+  background-color: #92e3a9;
+  color: white;
+  box-shadow: 0px 4px 10px #a1c3fc;
+  text-decoration: none;
+
+  width: 100%;
+
+  text-align: center;
+
+  padding: 0.75rem;
+}
+
+@media (min-width: 780px) {
+  .button {
+    width: auto;
+    padding: 0.75rem 6.25rem;
+  }
+}
+
+.button:hover {
+  background-color: #7cd896;
+}
+
+.button-link {
+  text-decoration: none;
+  color: #7cd896;
+}
